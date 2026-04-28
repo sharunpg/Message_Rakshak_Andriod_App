@@ -278,12 +278,12 @@ Example 3:
 
 # Setup Instructions
 
-### 1. Clone the repository
+## 1. Clone the repository
+
 ```bash
-git clone (https://github.com/sharunpg/Message_Rakshak_Andriod_App)
-
-
----
+git clone https://github.com/sharunpg/Message_Rakshak_Andriod_App.git
+cd Message_Rakshak_Andriod_App
+```
 
 ## 2. Open the Project
 
@@ -302,8 +302,10 @@ Inside:
 MainActivity.java
 
 Replace:
-private static final String API_KEY = "YOUR_API_KEY_HERE";
 
+```java
+private static final String API_KEY = "YOUR_API_KEY_HERE";
+```
 
 with your actual API key.
 
@@ -335,7 +337,9 @@ Planned enhancements include:
 ---
 
 # Contributors
+
 - Gurramkonda Sharun Prakash
+
 ---
 
 # License
