@@ -282,7 +282,6 @@ Example 3:
 
 ```bash
 git clone https://github.com/sharunpg/Message_Rakshak_Andriod_App.git
-cd Message_Rakshak_Andriod_App
 ```
 
 ## 2. Open the Project
