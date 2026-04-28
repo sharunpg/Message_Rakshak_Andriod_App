@@ -278,8 +278,9 @@ Example 3:
 
 # Setup Instructions
 
-## 1. Clone the Repository
-git clone https://github.com/your-username/MessageRakshak.git
+### 1. Clone the repository
+```bash
+git clone (https://github.com/sharunpg/Message_Rakshak_Andriod_App)
 
 
 ---
