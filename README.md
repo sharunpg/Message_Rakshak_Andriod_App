@@ -169,27 +169,26 @@ This architecture ensures **fast, lightweight, and explainable SMS scam detectio
 
 ---
 
-# Project Structure
+## 📂 Project Structure
 
-com.example.scammessagecheck
+MessageRakshak/
 │
-├── MainActivity.java
-├── LoginActivity.java
-├── DashboardActivity.java
-├── HistoryActivity.java
-├── SmartDetector.java
+├── MainActivity.java              # Message input and classification logic
+├── LoginActivity.java             # Handles user login and signup
+├── DashboardActivity.java         # Displays message statistics summary
+├── HistoryActivity.java           # Shows previously analyzed messages
+├── SmartDetector.java             # Rule-based scam detection engine
 │
 ├── api/
-│ ├── ApiService.java
-│ ├── ApiRequest.java
-│ ├── ApiResponse.java
-│ └── RetrofitClient.java
+│   ├── ApiService.java            # Defines Google Safe Browsing API endpoints
+│   ├── ApiRequest.java            # Request body structure for API calls
+│   ├── ApiResponse.java           # Response parsing model
+│   └── RetrofitClient.java        # Retrofit configuration and setup
 │
 └── res/
-├── layout/
-├── drawable/
-└── values/
-
+    ├── layout/                    # XML layout files for UI screens
+    ├── drawable/                  # Icons, shapes, and image resources
+    └── values/                    # Colors, strings, themes, and styles
 
 ---
 
